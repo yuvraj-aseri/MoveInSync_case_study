@@ -1,0 +1,13 @@
+# GET http://localhost:4000/api/getKapans
+
+POST http://localhost:4000/api/addKapan
+Content-Type: application/json
+{
+    "id": 1,
+    "name" : "C",
+    "weight": 100,
+    "pieces": 10,
+    "size" : 10,
+    "remarks" : "Not Good!!",
+    "status" : "PENDING"
+}
